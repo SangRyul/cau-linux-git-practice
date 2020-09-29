@@ -4,7 +4,7 @@ if [[ ! $1 || ! $1 =~ ^[-+]?[0-9]+$ ]];
 then
 	echo "You have No first argument or wrong number on first argument"
 	exit 1
-elif [[ ! $1 || ! $1 =~ ^[-+]?[0-9]+$ ]];
+elif [[ ! $2 || ! $2 =~ ^[-+]?[0-9]+$ ]];
 then
 	echo "You have No second argument or wrong number on second argument"
 	exit 1
@@ -21,3 +21,6 @@ do
 done
 
 exit 0
+
+
+
